@@ -1,18 +1,26 @@
-# Hacker News Clone Part 2 
- 
-##Learning Competencies 
+# Hacker News Clone Part 2
 
-##Summary 
+## Learning Competencies
 
- Now we're going to add voting to our Hacker News clone. 
+* Use the MVC pattern in web applications with proper allocation of code and
+  responsibilities to each layer
+* Implement CRUD in an MVC application
+* Implement user login and authentication in a web application
+* use AJAX actions to change views based on async
 
-## Part 2: Bring on the Votes
+## Releases
 
-What's Hacker News without voting.  Users should be able to up and down vote posts and comments. 
+Now we're going to add voting to our Hacker News clone.
+
+### Release 0: Bring on the Votes
+
+What's Hacker News without voting?  Users should be able to up and down vote
+posts and comments.
 
 ## Objectives
 
-Users should be able to vote up both comments and posts.  For now, you can have two separate tables for each type of vote.
+Users should be able to vote up both comments and posts.  For now, you can have
+two separate tables for each type of vote.
 
 ### Models &amp; Controllers
 
@@ -24,15 +32,13 @@ At the very least you should have the following models:
 3. `PostVote`
 4. `CommentVote`
 
-Don't try to do something fancy and have `PostVote` and `CommentVote` inherit from a shared base class.  Just have two separate tables and classes for now.
+Don't try to do something fancy and have `PostVote` and `CommentVote` inherit
+from a shared base class.  Just have two separate tables and classes for now.
 
 ### Views
 
-Implement all the views and use AJAX to implement the voting.   
+Implement all the views and use AJAX to implement the voting.
 
-##Releases
-###Release 0 
+## Optimize Your Learning
 
-##Optimize Your Learning 
-
-##Resources
+## Resources
