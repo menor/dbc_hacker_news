@@ -8,21 +8,17 @@
 * Implement user login and authentication in a web application
 * use AJAX actions to change views based on async
 
-## Releases
+## Summary
 
-Now we're going to add voting to our Hacker News clone.
+What's Hacker News without voting?  
 
-### Release 0: Bring on the Votes
-
-What's Hacker News without voting?  Users should be able to up and down vote
-posts and comments.
-
-## Objectives
-
-Users should be able to vote up both comments and posts.  For now, you can have
+Users should be able to up and down vote
+posts and comments. For now, you can have
 two separate tables for each type of vote.
 
-### Models &amp; Controllers
+## Releases
+
+### Release 0: Models &amp; Controllers
 
 At the very least you should have the following models:
 
@@ -35,10 +31,10 @@ At the very least you should have the following models:
 Don't try to do something fancy and have `PostVote` and `CommentVote` inherit
 from a shared base class.  Just have two separate tables and classes for now.
 
-### Views
+### Release 1 : Views
 
 Implement all the views and use AJAX to implement the voting.
 
-## Optimize Your Learning
+<!-- ## Optimize Your Learning -->
 
 ## Resources
