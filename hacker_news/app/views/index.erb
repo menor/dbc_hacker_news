@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Welcome to Superhacker News!</h1>
+  <ul>
+    <% @posts.each do |post| %>
+      <li class="post_element">
+        <a href="<%= post.url %>" class="post_url"><%= post.title %></a>
+        <span class="author"><%= User.find(post.user_id).username %> </span>
+        <a href="/posts/<%= post.id %>" class="comments">comments</a>
+      </li>
+    <% end %>
+  </ul>
+</div>

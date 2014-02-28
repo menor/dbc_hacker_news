@@ -1,0 +1,11 @@
+<div class="container">
+  <h1><%= @user.username %></h1>
+  <ul>
+      <li class="comments_link">
+        <a href="/users/<%= @user.id %>/comments">comments</a>
+      </li>
+      <li class="posts_link">
+        <a href="/users/<%= @user.id %>/posts">posts</a>
+      </li>
+  </ul>
+</div>
