@@ -1,0 +1,16 @@
+<div class="container">
+  <h1><a href="<%= @post.url %>"><%= @post.title %></a></h1>
+  <form class="comment" method="post" action="/comments/new">
+    <label for="comment">comment:</label>
+    <input type="text" id="comment" name="comment"/>
+    <input type="submit" value="Submit">
+  </form>
+  <ul>
+    <% @comments.each do |comment| %>
+      <li class="comment_element">
+        <p class="comment_url"><%= comment.content %></p>
+        <span class="author"><%= User.find(comment.user_id).username %> </span>
+      </li>
+    <% end %>
+  </ul>
+</div>
